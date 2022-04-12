@@ -79,34 +79,36 @@ console.log(
 
 // Level 2
 
-/* 1 
+/* 1 */
 let height = prompt("Enter height");
 let base = prompt("Enter Base");
 const area = 0.5 * base * height;
-alert(`the area of the triangle is ${area}`); */
+alert(`the area of the triangle is ${area}`);
 
-/* 2 
+/* 2 */
 let sideA = prompt("Enter side a");
 let sideB = prompt("Enter side b");
 let sideC = prompt("Enter side c");
 const perimeter = +sideA + +sideB + +sideC;
-alert(`The perimeter of the triangle is ${perimeter}`); */
+alert(`The perimeter of the triangle is ${perimeter}`);
 
-/* 3 
+/* 3 */
 const length = prompt("Enter length of triangle");
 const width = prompt("Enter width of triangle");
-const area = +length * +width;
-const perimeter = 2 * (+length + +width);
-alert(`the area of the triangle is ${area} and the perimeter is ${perimeter}`); */
+const area1 = +length * +width;
+const perimeter1 = 2 * (+length + +width);
+alert(
+  `the area of the triangle is ${area1} and the perimeter is ${perimeter1}`
+);
 
-/* 4 
+/* 4 */
 const radius = prompt("Enter radius", "in milimenters");
 const pi = Math.PI;
 const stringPi = pi.toString().slice(0, 4);
-const area = +stringPi * radius * radius;
+const area2 = +stringPi * radius * radius;
 const circum = 2 * +stringPi * radius;
 
-alert(`The area of the circle is ${area} and the circumference is ${circum}`); */
+alert(`The area of the circle is ${area2} and the circumference is ${circum}`);
 
 /* 5 */
 function calcSlope(x) {
@@ -140,12 +142,12 @@ valueOf(-2.5);
 valueOf(-2.1);
 valueOf(-3); // returns 0
 
-/* 9 
+/* 9 */
 
 const hours = prompt("Enter hours per week");
 const rate = prompt("Enter rate per hour");
 const calc = +rate * +hours;
-alert(`Your weekly earning is ${calc}`); */
+alert(`Your weekly earning is ${calc}`);
 
 /* 10 */
 console.log("Julieta".length > 7 ? "my name is long" : "my name is short");
@@ -170,7 +172,7 @@ let yourAge = 250;
 const difference = yourAge - myAge;
 console.log(`You're ${difference} years older than me`);
 
-/* 13 
+/* 13 */
 
 const birthYear = prompt("Enter your brith year");
 const userAge = 2022 - +birthYear;
@@ -183,13 +185,13 @@ const userAge = 2022 - +birthYear;
         18 - +userAge
       } years`
     )
-  : "";  */
+  : "";
 
-/* 14 
+/* 14 */
 
 const yearsLived = prompt("Enter number of years you live");
 const secondsLived = +yearsLived * 365 * 24 * 60 * 60;
-alert(`You've lived ${secondsLived} seconds`); */
+alert(`You've lived ${secondsLived} seconds`);
 
 /* 15 */
 
